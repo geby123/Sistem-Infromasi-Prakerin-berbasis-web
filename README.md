@@ -1,24 +1,42 @@
-# Bootstrap Colorpicker 2
+# bootstrap-datepicker
 
-Simple and customizable colorpicker component for Twitter Bootstrap.
+[![Join the chat at https://gitter.im/uxsolutions/bootstrap-datepicker](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/uxsolutions/bootstrap-datepicker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://travis-ci.org/uxsolutions/bootstrap-datepicker.svg?branch=master)](https://travis-ci.org/uxsolutions/bootstrap-datepicker)
+[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/uxsolutions/bootstrap-datepicker/master/LICENSE)
+[![npm](https://img.shields.io/npm/dt/bootstrap-datepicker.svg)](https://github.com/uxsolutions/bootstrap-datepicker)
+[![Twitter Follow](https://img.shields.io/twitter/follow/bsdatepicker.svg?style=social&label=Follow)](https://twitter.com/bsdatepicker)
 
-[![Build Status](https://api.travis-ci.org/farbelous/bootstrap-colorpicker.svg?branch=v2.x)](https://travis-ci.org/farbelous/bootstrap-colorpicker)
+Versions are incremented according to [semver](http://semver.org/).
 
-## Installation
-For downloading the source code, you have many choices:
+## CDN
 
-- Downloading the [latest v2.x source code ZIP file](https://github.com/farbelous/bootstrap-colorpicker/archive/v2.x.zip)
-- Cloning the source code: `git clone https://github.com/farbelous/bootstrap-colorpicker.git`
-- Installing via NPM: `npm install bootstrap-colorpicker`
-- Installing via Yarn: `yarn add bootstrap-colorpicker`
-- Installing via Composer: `composer require itsjavi/bootstrap-colorpicker`
+You can use the [CloudFlare](https://www.cloudflare.com) powered [cdnjs.com](https://cdnjs.com) on your website.
 
-## Getting started
-- For using the plugin you will only need the files under the `dist` folder
-- [Documentation and demos](https://farbelous.github.io/bootstrap-colorpicker/v2/)
+[bootstrap-datepicker](https://cdnjs.com/libraries/bootstrap-datepicker) on cdnjs
 
-## Contributing and reporting issues
-If you want to contribute to the source code or report issues and suggestions, please read the [CONTRIBUTING.md](.github/CONTRIBUTING.md) guidelines first. Some steps are mandatory in order to accept a Pull Request.
+Please note: It might take a few hours until a new version is available on cdnjs.
 
-## Credits
-Originally written by [Stefan Petre](http://www.eyecon.ro/)
+## Links
+
+* [Online Demo](https://uxsolutions.github.io/bootstrap-datepicker/)
+* [Online Docs](https://bootstrap-datepicker.readthedocs.org/en/stable/) (ReadTheDocs.com)
+* [Google Group](https://groups.google.com/group/bootstrap-datepicker/)
+* [Travis CI](https://travis-ci.org/uxsolutions/bootstrap-datepicker)
+
+## Development
+
+Once you cloned the repo, you'll need to install [grunt](https://gruntjs.com/) and the development dependencies using a package manager:
+
+* [yarn](https://yarnpkg.com/) (recommended):
+
+```
+$ [sudo] yarn global add grunt-cli
+$ yarn install
+```
+
+* [npm](https://www.npmjs.com/):
+
+```
+$ [sudo] npm install --global grunt-cli
+$ npm install
+```
